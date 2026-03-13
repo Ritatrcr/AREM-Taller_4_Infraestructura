@@ -169,9 +169,4 @@ Finalmente, el contraste con buenas prácticas de arquitectura de infraestructur
 
 ## 📚 Referencias
 
-[1] Amazon Web Services. *AWS Well-Architected Framework – Reliability Pillar*. AWS Documentation.  
-[2] Microsoft. *Azure Well-Architected Framework*. Microsoft Learn.  
-[3] Microsoft. *Reliability design principles*. Microsoft Learn.  
-[4] Google Cloud. *Google Cloud Well-Architected Framework: Reliability pillar*. Google Cloud Documentation.  
-[5] Microsoft. *Hybrid architecture design*. Azure Architecture Center.  
-[6] Ficha de caracterización del cliente – Élite Airsoft. Documento base del caso analizado.
+
