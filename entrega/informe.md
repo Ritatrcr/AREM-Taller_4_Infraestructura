@@ -160,4 +160,11 @@ Finalmente, el contraste con buenas prácticas de arquitectura de infraestructur
 
 ## 📚 Referencias
 
+[1] ARQTEAM-03. *Ficha de caracterización del cliente: Élite Airsoft*. 2026. Documento base del caso analizado. :contentReference[oaicite:0]{index=0}
+
+[2] Amazon Web Services. *AWS Well-Architected Framework – Reliability Pillar*. AWS Documentation, 2024. :contentReference[oaicite:1]{index=1}
+
+[3] Microsoft. *Azure Well-Architected Framework – Reliability*. Microsoft Learn. :contentReference[oaicite:2]{index=2}
+
+[4] Google Cloud. *Well-Architected Framework: Reliability pillar*. Google Cloud Documentation, 2024. :contentReference[oaicite:3]{index=3}
 
