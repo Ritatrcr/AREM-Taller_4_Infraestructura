@@ -110,16 +110,7 @@ En conjunto, el diagnóstico muestra que el problema principal no es la ausencia
 
 ## 📈 Diagrama final entregado
 
-Inserte aquí la imagen o referencia del diagrama final.
-
-Ejemplo en Markdown:
-
-![Mapa de infraestructura actual de Élite Airsoft](./img/mapa_infraestructura_elite_airsoft.png)
-
-O si prefieren dejar referencia al archivo:
-
-- `modelo-final.drawio`
-- `mapa-infraestructura.pdf`
+![Mapa de infraestructura actual de Élite Airsoft](../imagenes/Diagrama.jpg)
 
 ---
 
