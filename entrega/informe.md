@@ -8,7 +8,7 @@
 ## 👥 Integrantes del equipo
 - Daniel Forero
 - Rita Trindade
-- Brandon Merchans
+- Brandon Merchan
 
 ---
 
@@ -16,7 +16,7 @@
 
 El presente trabajo tuvo como objetivo analizar la infraestructura actual del cliente real **Élite Airsoft**, identificar debilidades técnicas y operativas dentro de su funcionamiento actual, y redactar un diagnóstico técnico sustentado en el mapa de infraestructura elaborado por el equipo.
 
-Para el desarrollo del taller se tomó como base la información recolectada en la ficha de caracterización del cliente, donde se evidenció que el negocio funciona actualmente mediante una combinación de herramientas digitales dispersas, principalmente **Instagram**, **WhatsApp**, **Google Forms**, **Nequi** y **Excel**, sin contar con una plataforma centralizada que integre reservas, pagos, consentimientos y seguimiento de clientes.
+Para el desarrollo del taller se tomó como base la información recolectada en la ficha de caracterización del cliente, donde se evidenció que el negocio funciona actualmente mediante una combinación de herramientas digitales dispersas, principalmente **Instagram**, **WhatsApp**, **Google Forms**, **Nubank** y **Excel**, sin contar con una plataforma centralizada que integre reservas, pagos, consentimientos y seguimiento de clientes.
 
 A partir de ello, el equipo construyó una representación del flujo real del negocio y realizó un análisis técnico orientado a detectar cuellos de botella, puntos críticos de dependencia, debilidades de trazabilidad y limitaciones de escalabilidad. Finalmente, se complementó el ejercicio con una breve investigación sobre buenas prácticas de arquitectura de infraestructura, especialmente en entornos **cloud**, **on-premise** e **híbridos**, para relacionarlas con la situación actual del cliente.
 
@@ -119,10 +119,10 @@ En conjunto, el diagnóstico muestra que el problema principal no es la ausencia
 | Nombre del elemento | Tipo | Descripción | Responsable |
 |---|---|---|---|
 | Cliente / Jugador | Actor | Persona interesada en reservar y asistir a una partida de airsoft | Cliente |
-| Instagram / Facebook | Canal digital | Medio principal de captación y promoción del negocio | Operador del negocio |
+| Instagram / Tik Tok | Canal digital | Medio principal de captación y promoción del negocio | Operador del negocio |
 | WhatsApp | Canal operativo | Medio principal de atención, reservas, confirmaciones y recepción de comprobantes | Operador del negocio |
 | Google Forms | Herramienta digital | Formulario usado para consentimiento informado previo a la partida | Operador del negocio / Cliente |
-| Nequi | Herramienta de pago | Medio usado para recibir adelantos y pagos finales | Cliente / Operador |
+| Nubank | Herramienta de pago | Medio usado para recibir adelantos y pagos finales | Cliente / Operador |
 | Excel | Herramienta de control | Registro básico y manual de reservas, ingresos o listados | Operador del negocio |
 | Operador del negocio | Actor | Persona que administra reservas, pagos, atención y coordinación general | Fundador |
 | Reserva | Proceso | Solicitud y confirmación de participación en una partida o evento | Operador del negocio |

@@ -87,13 +87,7 @@ En entornos híbridos o distribuidos, estas decisiones son aún más importantes
 
 ---
 
-## 📚 Referencias
-- [1] Universidad de La Sabana. Material de clase – Arquitectura Empresarial. s.f.  
-- [2] Amazon Web Services (AWS). Best Practices for High Availability and Scalability. s.f.  
-- [3] Microsoft Azure Architecture Center. Reliability and Infrastructure Design Principles. s.f.  
-- [4] Google Cloud Architecture Framework. Operational Excellence and Reliability. s.f.
 
----
 
 ## ✅ Licencia
 Este taller hace parte del curso de **Arquitectura Empresarial – Universidad de La Sabana**.  

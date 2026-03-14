@@ -2,26 +2,16 @@
 
 Este archivo contiene las fuentes consultadas para el desarrollo del taller, tanto para el componente técnico como para la investigación complementaria.
 
-## 🔖 Taller
-_Taller X - [Nombre del Taller]_
 
----
+Amazon Web Services. *AWS Well-Architected Framework – Reliability Pillar*. AWS Documentation, 2024. https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html. Fecha de consulta: 13/03/2026.
 
-## 📚 Referencias utilizadas
+Microsoft. *Azure Well-Architected Framework*. Microsoft Learn, s.f. https://learn.microsoft.com/en-us/azure/well-architected/. Fecha de consulta: 13/03/2026.
 
-1. Apellido, Nombre. *Título del libro o artículo*. Editorial, Año. URL o DOI.  
-2. Organización. *Especificación técnica o estándar consultado*. URL.  
-3. Sitio web institucional. "Título del artículo o página". [Enlace](https://ejemplo.com). Fecha de consulta: DD/MM/AAAA.  
-4. Otro recurso académico o técnico citado.
+Google Cloud. *Well-Architected Framework: Reliability pillar*. Google Cloud Documentation, 2024. https://docs.cloud.google.com/architecture/framework/reliability. Fecha de consulta: 13/03/2026.
 
----
+Google Cloud. *Google Cloud Well-Architected Framework*. Google Cloud Documentation,  https://docs.cloud.google.com/architecture/framework. Fecha de consulta: 13/03/2026.
 
-## 📌 Recomendaciones
+Universidad de La Sabana. *Material de clase del curso Arquitectura Empresarial*. Documento académico de apoyo
 
-- Usa formato APA o IEEE para citar.
-- No incluyas fuentes como Wikipedia si hay mejores alternativas.
-- Si usas inteligencia artificial para redactar o investigar, cítalo como "Fuente asistida por IA: ChatGPT, julio 2025".
+Élite Airsoft. *Ficha de caracterización del cliente*. Documento base del caso analizado
 
----
-
-_Este archivo forma parte de la entrega académica del curso AREM - Universidad de La Sabana._

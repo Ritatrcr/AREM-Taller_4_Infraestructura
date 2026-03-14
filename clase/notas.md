@@ -1,7 +1,7 @@
 # 🗒️ Registro de Trabajo en Clase - Taller: Mapa de Infraestructura RedExpress
 
 ## 📆 Fecha de la sesión
-7 de Marzo de 2024
+7 de Marzo de 2026
 
 ---
 
@@ -25,7 +25,7 @@ Durante la sesión el equipo trabajó en el modelado preliminar de la infraestru
 
 ## Boceto inicial del modelo
 
-> _(Insertar aquí la captura del diagrama draw.io o foto del boceto en papel realizado durante la sesión.)_
+El boceto inicial fue refinado directamente en draw.io durante la sesión, dando lugar al mapa preliminar incluido en la carpeta `/clase`.
 
 El modelo cubre las siguientes capas identificadas en clase:
 
@@ -91,10 +91,10 @@ A continuación se documentan los problemas detectados durante el análisis en c
 
 | Tarea asignada | Responsable | Fecha estimada |
 |---|---|---|
-| Modelado final del diagrama en draw.io | Rita | 10/08 |
-| Redacción del informe de diagnóstico técnico | Brandon | 11/08 |
-| Investigación de soluciones (CQRS, Redis Cluster, Multi-AZ) | Daniel | 12/08 |
-| Revisión conjunta y ajustes finales | Todo el equipo | 13/08 |
+| Modelado final del diagrama en draw.io | Rita | 10/08/2026 |
+| Redacción del informe de diagnóstico técnico | Brandon | 11/08/2026 |
+| Investigación de soluciones (CQRS, Redis Cluster, Multi-AZ) | Daniel | 12/08/2026 |
+| Revisión conjunta y ajustes finales | Todo el equipo | 13/08/2026 |
 
 ---
 
