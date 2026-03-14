@@ -1,93 +1,92 @@
-# 🛠️ Taller 4: Mapa de Infraestructura y Diagnóstico Técnico
+# 📄 Informe Técnico del Taller
 
-## 🎯 Objetivo
+## 🔖 Taller 4 – Mapa de Infraestructura y Diagnóstico Técnico
 
-Construir el mapa lógico y/o físico de la infraestructura tecnológica del sistema base y realizar un diagnóstico de debilidades, cuellos de botella y oportunidades de mejora.
-
----
-
-## 🚚 Caso base de referencia: RedExpress (Plataforma de Logística)
-
-RedExpress cuenta con una infraestructura híbrida que incluye servidores regionales, servicios en la nube, centros de distribución físicos y dispositivos móviles utilizados por los mensajeros. La plataforma digital debe garantizar alta disponibilidad y rendimiento, especialmente durante campañas promocionales o temporadas de alto volumen como Navidad. El mapa de infraestructura y el diagnóstico técnico permitirán visualizar riesgos como puntos únicos de falla, cuellos de botella en bases de datos, y limitaciones en la escalabilidad horizontal de servicios críticos.
-
-**Contexto:**
-- RedExpress gestiona paquetes y rastreo de envíos mediante una app móvil y una plataforma web.
-- La infraestructura actual incluye servicios desplegados en la nube, servidores regionales para procesamiento de rutas, y una base de datos centralizada.
-
-**Elementos esperados para modelar:**
-
-- Componentes de infraestructura:
-  - Balanceadores de carga
-  - Base de datos distribuida
-  - API Gateway
-  - Servicios de monitoreo y alertas
-  - Módulos de procesamiento de rutas y estados de paquetes
-
-- Áreas críticas a diagnosticar:
-  - Latencia en rastreo en tiempo real
-  - Riesgo de puntos únicos de falla
-  - Escalabilidad por zonas geográficas
+## 👥 Integrantes del equipo
+- Rita Trindade da Cruz (ritatrcr)
+- Brandon Merchan Sandoval (merchito12)
+- Daniel Felipe Forero Sánchez (DanielForero14)
 
 ---
 
-## 🧪 Parte 1: Trabajo en Clase
+## 🧠 Descripción general del trabajo
+El objetivo de este taller fue construir un **mapa de infraestructura tecnológica** y realizar un **diagnóstico técnico** sobre un sistema base, con el fin de identificar componentes críticos, riesgos operativos, cuellos de botella y oportunidades de mejora en términos de disponibilidad, escalabilidad y monitoreo.
 
-Durante la clase se espera que el equipo:
+El trabajo se desarrolló tomando como referencia el caso base **RedExpress (Plataforma de Logística)**, el cual fue analizado inicialmente en clase para comprender la arquitectura tecnológica del sistema, sus componentes principales y sus posibles limitaciones. Posteriormente, este análisis sirvió como base para aplicar los conceptos al sistema real del cliente.
 
-- Modele un mapa de infraestructura preliminar de RedExpress.
-- Identifique zonas sensibles de carga, disponibilidad, monitoreo o redundancia.
-- Use papel, draw.io o cualquier herramienta visual para registrar su análisis.
-- Documente posibles problemas y cómo podrían abordarse.
-- Reciba retroalimentación en vivo del docente.
+Esta aproximación permitió comprender la importancia de representar visualmente la infraestructura de un sistema, así como la necesidad de evaluar sus puntos sensibles para proponer mejoras alineadas con buenas prácticas de arquitectura empresarial e infraestructura tecnológica.
 
 ---
 
-## 🧠 Parte 2: Aplicación al Cliente Real
+## 🔧 Proceso de desarrollo
+El desarrollo del taller inició con el análisis del caso base de RedExpress, identificando los elementos principales de su infraestructura, entre ellos la aplicación móvil, la plataforma web, los balanceadores de carga, el API Gateway, los módulos de procesamiento, los servicios en la nube, los servidores regionales y la base de datos centralizada o distribuida.
 
-Después de la clase, el equipo debe:
+Durante la sesión de clase se construyó un **primer borrador del mapa de infraestructura**, el cual permitió representar de manera general la relación entre los distintos componentes tecnológicos del sistema. A partir de este modelo preliminar, se identificaron posibles zonas críticas relacionadas con la latencia en el rastreo en tiempo real, la existencia de puntos únicos de falla y las limitaciones de escalabilidad geográfica.
 
-- Elaborar el mapa de infraestructura del sistema real del cliente.
-- Identificar debilidades o cuellos de botella reales o potenciales.
-- Redactar un informe explicando el diagnóstico técnico.
-- Complementar con una pequeña investigación sobre buenas prácticas de arquitectura de infraestructura (cloud, on-premise, híbrida).
+Posteriormente, el mapa fue refinado fuera de clase, organizando de forma más clara los componentes, sus dependencias y sus mecanismos de soporte, como el monitoreo y las alertas. De manera complementaria, se elaboró un **diagnóstico técnico** que describe las principales debilidades detectadas y propone posibles acciones de mejora.
 
----
-
-## 📁 Estructura esperada del repositorio
-
-```
-taller-04-infraestructura/
-├── README.md
-├── clase/
-│   ├── mapa-borrador.drawio
-│   └── notas.md
-├── entrega/
-│   ├── mapa-final.drawio
-│   ├── informe.md
-│   └── referencias.md
-```
+Como herramienta principal se utilizó **draw.io**, lo que facilitó la construcción, iteración y ajuste del mapa de infraestructura durante el desarrollo del taller.
 
 ---
 
-## 📤 Entregables
+## 🧩 Análisis del modelo propuesto
 
-- Mapa de infraestructura del sistema del cliente
-- Informe de diagnóstico técnico
-- Documento de referencias/investigación
+### 🗺️ Mapa de infraestructura
+El mapa de infraestructura propuesto se estructura a partir de:
+- Componentes de acceso al sistema, como aplicación móvil y plataforma web.
+- Elementos de distribución de tráfico, como balanceadores de carga y API Gateway.
+- Servicios de negocio relacionados con el procesamiento de rutas, rastreo y gestión de estados de paquetes.
+- Infraestructura de datos, incluyendo base de datos distribuida o centralizada.
+- Componentes de soporte, como monitoreo, alertas y servidores regionales.
+
+Este modelo permite representar de forma clara cómo se conectan los elementos tecnológicos del sistema y cómo fluye la información entre usuarios, servicios y almacenamiento.
+
+### ⚠️ Diagnóstico técnico
+A partir del análisis del mapa se identificaron las siguientes áreas críticas:
+- **Latencia en rastreo en tiempo real**, debido a la alta dependencia de servicios centrales y la posible saturación de consultas.
+- **Riesgo de puntos únicos de falla**, especialmente en componentes como gateway, balanceadores o base de datos si no cuentan con redundancia.
+- **Limitaciones de escalabilidad por zonas geográficas**, considerando que RedExpress opera con servidores regionales y requiere disponibilidad en distintos territorios.
+- **Necesidad de monitoreo continuo**, para detectar incidentes, degradación del servicio y fallos en componentes críticos.
+
+El diagnóstico permitió no solo identificar posibles fallos, sino también plantear medidas de mejora orientadas a fortalecer la resiliencia y el rendimiento de la plataforma.
 
 ---
 
-## 📊 Rúbrica de Evaluación
+## 📈 Diagramas entregados
+- Mapa de Infraestructura Tecnológica – Caso base
+- Diagnóstico técnico de riesgos, debilidades y oportunidades de mejora
 
-| Criterio                            | Excelente (5)                                                             | Aceptable (3) / Insuficiente (1–2)                         |
-|-------------------------------------|----------------------------------------------------------------------------|-------------------------------------------------------------|
-| Mapa de infraestructura (caso base) | Representa claramente componentes, nodos y servicios críticos             | Elementos incompletos o mal estructurados                  |
-| Análisis de cuellos de botella      | Se identifican y justifican problemas técnicos reales o simulados         | Diagnóstico débil o poco argumentado                       |
-| Adaptación al cliente real          | El modelo refleja la infraestructura del cliente con lógica y detalle     | Adaptación superficial o desconectada                      |
-| Investigación técnica               | Se apoya en buenas prácticas (cloud, escalabilidad, redundancia, etc.)    | Investigación poco clara o sin fuentes aplicadas           |
+*(Los archivos finales se encuentran en la carpeta `/entrega` del repositorio).*
+
+---
+
+## 🗂️ Organización del repositorio
+El repositorio se encuentra organizado de la siguiente manera:
+- **/clase**: contiene los borradores y notas generadas durante la sesión de clase.
+- **/entrega**: contiene el mapa final, el informe técnico y las referencias utilizadas.
+
+Esta organización permite evidenciar tanto el proceso de construcción del análisis como la entrega final del taller.
+
+---
+
+## 🔍 Investigación complementaria
+### Tema investigado
+Buenas prácticas de arquitectura de infraestructura en entornos cloud, on-premise e híbridos, con enfoque en disponibilidad, redundancia, monitoreo y escalabilidad.
+
+### Resumen
+La arquitectura de infraestructura es un elemento fundamental en el diseño de sistemas empresariales, ya que permite garantizar que las aplicaciones sean estables, escalables y resilientes frente a fallos o aumentos de demanda. En este contexto, prácticas como el uso de balanceadores de carga, bases de datos distribuidas, mecanismos de monitoreo, redundancia de componentes y despliegues híbridos son esenciales para asegurar la continuidad operativa.
+
+El análisis de infraestructura no solo ayuda a visualizar la composición técnica de un sistema, sino que también permite identificar debilidades arquitectónicas y plantear mejoras sostenibles que respondan a las necesidades del negocio y de los usuarios.
+
+---
+
+## 📚 Referencias
+- [1] Universidad de La Sabana. Material de clase – Arquitectura Empresarial. s.f.  
+- [2] Amazon Web Services (AWS). Infrastructure and Architecture Best Practices. s.f.  
+- [3] Microsoft Azure. Cloud Architecture Framework. s.f.  
+- [4] Google Cloud. Reliability, Scalability and High Availability Concepts. s.f.
 
 ---
 
 ## ✅ Licencia
-
-Este taller hace parte del curso de Arquitectura Empresarial - Universidad de La Sabana. Uso académico bajo licencia MIT.
+Este taller hace parte del curso de **Arquitectura Empresarial – Universidad de La Sabana**. Uso académico bajo licencia **MIT**.
